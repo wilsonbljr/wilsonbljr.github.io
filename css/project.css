@@ -10,6 +10,7 @@
     border-radius: 5px;
     margin-bottom: 5vh;
     height: 12vh;
+    min-height: 8rem;
 }
 
 .project__box2 {
@@ -19,6 +20,7 @@
     border: 2px solid var(--rosa);
     border-radius: 5px;
     height: 12vh;
+    min-height: 8rem;
 }
 
 
@@ -55,5 +57,5 @@
     min-height: 100%;
     padding-left: 3vw;
     padding-right: 3vw;
-    max-width: 110px;
+    max-width: 100px;
 }

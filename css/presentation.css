@@ -1,5 +1,6 @@
 /* Presentation container */
 .presentation {
+    height: fit-content;
     min-height: 100vh;
 }
 
@@ -30,6 +31,7 @@
     margin: 0 auto;
     border-radius: 50%;
     box-shadow: 0 0 0 3px var(--rosa);
+    max-width: 241px;
 }
 
 /* Presentation Text */
@@ -78,4 +80,10 @@
 
 .scrollDown__hide {
     display: none;
+}
+
+@media screen and (max-height: 550px) {
+    .presentation__scrollDown {
+        display: none;
+    }
 }

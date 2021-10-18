@@ -1,3 +1,4 @@
+/* Container links */
 .container__contactLinks {
     padding-top: 5vh;
     display: flex;
@@ -15,11 +16,13 @@
     width: 30%;
 }
 
-.contact__img {
-    width: 50%;
-}
-
 .contact__linkText {
     width: 60%;
     color: var(--branco);
 }
+
+/* Contact icons */
+.contact__img {
+    width: 50%;
+}
+

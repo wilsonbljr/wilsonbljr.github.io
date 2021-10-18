@@ -1,3 +1,4 @@
+/* Color variables */
 :root {
     --branco: #FFF;
     --rosa: #FF0051;
@@ -7,6 +8,7 @@
     --cinza-claro: #6B6E70;
 }
 
+/* General changes */
 html {
     font-family: 'Fira Sans', sans-serif;
 }
@@ -15,11 +17,13 @@ body {
     background-color: var(--preto);
 }
 
+/* Content containers */
 .container {
     padding-left: 8vw;
     padding-right: 8vw;
 }
 
+/* General text styles */
 .title {
     padding-top: 10vh;
     color: var(--cinza-claro);
