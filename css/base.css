@@ -1,0 +1,19 @@
+:root {
+    --branco: #FFF;
+    --rosa: #FF0051;
+    --preto: #222629;
+    --cinza: #474B4F;
+    --cinza-claro: #6B6E70;
+}
+
+html {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-color: var(--preto);
+}
+
+.container {
+    min-height: 100vh;
+}
