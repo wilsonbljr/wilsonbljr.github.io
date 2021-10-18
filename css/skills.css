@@ -1,0 +1,27 @@
+.container__skills {
+    padding-top: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills {
+    border: 1px solid var(--rosa);
+    border-radius: 5px;
+    padding: 0.6rem;
+    width: calc(30% - 1.8rem);
+    margin: 0.3rem;
+    text-align: center;
+    color: var(--branco);
+}
+
+.skills:hover {
+    color: var(--cinza-claro);
+    border: 2px solid var(--rosa-claro);
+}
+
+.skills__text {
+    padding-top: 0.6rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+}

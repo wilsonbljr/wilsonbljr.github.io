@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/presentation.css">
     <link rel="stylesheet" href="css/hamburgermenu.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
 
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,47 +33,117 @@
 
 <body>
     <header>
-        <section class="hamburger">
-                <ul class="hamburger__menu">
-                    <li class="hamburger__item">Início</li>
-                    <li class="hamburger__item">Sobre mim</li>
-                    <li class="hamburger__item">Portfólio</li>
-                    <li class="hamburger__item">Contato</li>
-                </ul>
-                <button class="hamburger__button">
-                    <img src="img/menu.svg" alt="Abrir navegação" class="">
-                    <img src="img/x.svg" alt="Fechar navegação" class="hamburger__hideButton">
-                </button>
-                <div class="hamburger__socials">
-                    <a href="https://github.com/wilsonbljr"  class="socials__img"><img src="img/github.svg" alt="Perfil do Github"></a>
-                    <a href="https://www.linkedin.com/in/wilsonbljr/"  class="socials__img"><img src="img/linkedin.svg" alt="Perfil do LinkedIn"></a>
-                </div>
+        <!--Hamburger Menu-->
+        <section>
+            <button class="hamburger__button">
+                <img src="img/icons/menu.svg" alt="Abrir navegação" class="hamburger__showMenu">
+                <img src="img/icons/x.svg" alt="Fechar navegação" class="hamburger__hideButton">
+            </button>
+            <div class="hamburger">
+                    <ul class="hamburger__menu">
+                        <li class="hamburger__item">Início</li>
+                        <li class="hamburger__item">Sobre mim</li>
+                        <li class="hamburger__item">Skills</li>
+                        <li class="hamburger__item">Projetos</li>
+                        <li class="hamburger__item">Contato</li>
+                    </ul>
+                    <div class="hamburger__socials">
+                        <a href="https://github.com/wilsonbljr"  class="socials__img"><img src="img/icons/github.svg" alt="Perfil do Github"></a>
+                        <a href="https://www.linkedin.com/in/wilsonbljr/"  class="socials__img"><img src="img/icons/linkedin.svg" alt="Perfil do LinkedIn"></a>
+                    </div>
+            </div>
         </section>
     </header>
 
     <main>
         <!--Presentation-->
-        <section class="container">
+        <section class="container presentation">
             <div class="container__img">
                 <img src="img/perfil.png" alt="Foto de Perfil" class="imgperfil">
             </div>
-            <div class="container__presentation">
-                
-                <h1 class="title">Olá,</h1>
-                <h2 class="subtitle">meu nome é Wilson,</h2>
-                <h2 class="subtitle">Developer e Eng. Mecânico.</h2>
+            <div class="container__presentation">  
+                <h1 class="presentation__title subtitle__presentation">Olá,</h1>
+                <h2 class="subtitle subtitle__presentation">meu nome é Wilson,</h2>
+                <h2 class="subtitle subtitle__presentation">Developer e Eng. Mecânico.</h2>
+            </div>
+            <div class="presentation__scrollDown">
+                <p class="scrollDown__text">SAIBA MAIS</p>
+                <a href="#" class="scrollDown__button"><img src="img/icons/chevron.svg" alt="Role para baixo" class="scrollDown_img"></a>
             </div>
         </section>
 
         <!--About-->
         <section class="container">
-            <h1 class="title">Sobre mim</h1>
-            <p class="about__text"></p>
+            <h1 class="title aboutme__title">Sobre mim</h1>
+            <p class="textEmphasized">Fascinado por novas tecnologias.<p> 
+            <p class="text">Escolhi seguir a carreira de developer após me formar em Eng. Mecânica
+                e trabalhar em uma equipe multidisciplinar com outros developers.</p>
+            <p class="text">Neste trabalho acabei me apaixonando por programação e aspiro me tornar um dev full stack.</p>
+            <p class="text">Gosto de trabalhar em equipe, resolver problemas complexos e criar coisas.</p>
+        </section>
+
+        <!--Skills-->
+        <section class="container">
+            <h1 class="title skills__title">Skills</h1>
+            <div class="container__skills">
+                <div class="skills">
+                    <img src="img/icons/java.svg" alt="" class="skills__img">
+                    <p class="skills__text">Java</p>
+                </div>
+                <div class="skills">
+                    <img src="img/icons/javascript.svg" alt="" class="skills__img">
+                    <p class="skills__text">JavaScript</p>
+                </div>
+                <div class="skills">
+                    <img src="img/icons/html5.svg" alt="" class="skills__img">
+                    <p class="skills__text">HTML5</p>
+                </div>
+                <div class="skills">
+                    <img src="img/icons/css.svg" alt="" class="skills__img">
+                    <p class="skills__text">CSS3</p>
+                </div>
+                <div class="skills">
+                    <img src="img/icons/spring.svg" alt="" class="skills__img">
+                    <p class="skills__text">Spring</p>
+                </div>
+                <div class="skills">
+                    <img src="img/icons/git.svg" alt="" class="skills__img">
+                    <p class="skills__text">Git</p>
+                </div>
+                <div class="skills">
+                    <img src="img/icons/docker.svg" alt="" class="skills__img">
+                    <p class="skills__text">Docker</p>
+                </div>
+                <div class="skills">
+                    <img src="img/icons/mysql.svg" alt="" class="skills__img">
+                    <p class="skills__text">MySQL</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Projetos-->
+        <section class="container">
+            <h1 class="title">Projetos</h1>
+        </section>
+        <!--Contact-->
+        <section class="container">
+            <h1 class="title">Contato</h1>
+            <p class="text contact__text">Você pode entrar em contato comigo através de qualquer plataforma</p>
+            <div class="container__contactLinks">
+                <a href="https://github.com/wilsonbljr" class="contact__link"><img src="img/icons/github.svg" alt="GitHub" class="contact__img"></a>
+                <p class="contact__linkText">@wilsonbljr</p>
+
+                <a href="https://www.linkedin.com/in/wilsonbljr/" class="contact__link"><img src="img/icons/linkedin.svg" alt="LinkedIn" class="contact__img"></a>
+                <p class="contact__linkText">@wilsonbljr</p>
+                
+                <a href="mailto:wilsonbljr@gmail.com" class="contact__link"><img src="img/icons/mail.svg" alt="E-mail" class="contact__img"></a>
+                <p class="contact__linkText">wilsonbljr@gmail.com</p>
+            </div>
         </section>
     </main>
 
     <footer>
-
+        <p class="footer__text"> 2021 Wilson Bley Lipski Jr.</p>
     </footer>
 </body>
 

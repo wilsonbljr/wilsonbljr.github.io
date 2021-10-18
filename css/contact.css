@@ -1,0 +1,25 @@
+.container__contactLinks {
+    padding-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__text {
+    padding-top: 5vh;
+}
+
+.contact__link {
+    padding: 2vh 0 2vh 0;
+    width: 30%;
+}
+
+.contact__img {
+    width: 50%;
+}
+
+.contact__linkText {
+    width: 60%;
+    color: var(--branco);
+}

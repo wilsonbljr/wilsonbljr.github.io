@@ -1,0 +1,18 @@
+footer {
+    margin-top: 15vh;
+    height: 5vh;
+    background-color: var(--cinza);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__text {
+    text-align: center;
+    color: var(--preto);
+}
+
+.footer__text::before {
+    content: "\00A9";
+    color: var(--preto);
+}

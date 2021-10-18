@@ -1,4 +1,7 @@
 .hamburger {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
     position: fixed;
     transform: translateX(100%);
     transition: transform 0.3s;
@@ -8,9 +11,6 @@
     bottom: 0;
     z-index: 99;
     background-color: var(--preto);
-    display: flex;
-    flex-direction: column;
-    overflow-y: scroll;
 }
 
 .hamburger__showMenu {
