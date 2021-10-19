@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#474B4F"/>
+    <meta name="description" content="Portfólio e Currículo do Wilson Bley Lipski Júnior">
+
+    <!--Preload fonts-->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;700&display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;700&display=swap" rel="stylesheet"
+        type="text/css" />
+    </noscript>
 
     <!--Favicon-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -37,20 +47,23 @@
         <section>
             <button class="hamburger__button">
                 <img src="img/icons/menu.svg" alt="Abrir navegação" class="button__img" id="openMenu">
-                <img src="img/icons/x.svg" alt="Fechar navegação" class="hamburger__hideButton button__img" id="closeMenu">
+                <img src="img/icons/x.svg" alt="Fechar navegação" class="hamburger__hideButton button__img"
+                    id="closeMenu">
             </button>
             <div class="hamburger">
-                    <ul class="hamburger__menu">
-                        <li class="hamburger__item" id = "item__inicio">Início</li>
-                        <li class="hamburger__item" id = "item__sobre">Sobre mim</li>
-                        <li class="hamburger__item" id = "item__skills">Skills</li>
-                        <li class="hamburger__item" id = "item__projetos">Projetos</li>
-                        <li class="hamburger__item" id = "item__contato">Contato</li>
-                    </ul>
-                    <div class="hamburger__socials">
-                        <a href="https://github.com/wilsonbljr"  class="socials__img"><img src="img/icons/github.svg" alt="Perfil do Github"></a>
-                        <a href="https://www.linkedin.com/in/wilsonbljr/"  class="socials__img"><img src="img/icons/linkedin.svg" alt="Perfil do LinkedIn"></a>
-                    </div>
+                <ul class="hamburger__menu">
+                    <li class="hamburger__item" id="item__inicio">Início</li>
+                    <li class="hamburger__item" id="item__sobre">Sobre mim</li>
+                    <li class="hamburger__item" id="item__skills">Skills</li>
+                    <li class="hamburger__item" id="item__projetos">Projetos</li>
+                    <li class="hamburger__item" id="item__contato">Contato</li>
+                </ul>
+                <div class="hamburger__socials">
+                    <a href="https://github.com/wilsonbljr" class="socials__img"><img src="img/icons/github.svg"
+                            alt="Perfil do Github"></a>
+                    <a href="https://www.linkedin.com/in/wilsonbljr/" class="socials__img"><img
+                            src="img/icons/linkedin.svg" alt="Perfil do LinkedIn"></a>
+                </div>
             </div>
         </section>
     </header>
@@ -59,26 +72,29 @@
         <!--Presentation-->
         <section class="container presentation" id="presentation">
             <div class="container__img">
-                <img src="img/perfil.png" alt="Foto de Perfil" class="imgperfil">
+                <img src="img/perfil.webp" alt="Foto de Perfil" class="imgperfil">
             </div>
-            <div class="container__presentation">  
+            <div class="container__presentation">
                 <h1 class="presentation__title subtitle__presentation">Olá,</h1>
                 <h2 class="subtitle subtitle__presentation">meu nome é Wilson,</h2>
                 <h2 class="subtitle subtitle__presentation">Developer e Eng. Mecânico.</h2>
             </div>
             <div class="presentation__scrollDown">
                 <p class="scrollDown__text">SAIBA MAIS</p>
-                <a href="#" class="scrollDown__button"><img src="img/icons/chevron.svg" alt="Role para baixo" class="scrollDown_img"></a>
+                <a href="#" class="scrollDown__button"><img src="img/icons/chevron.svg" alt="Role para baixo"
+                        class="scrollDown_img"></a>
             </div>
         </section>
 
         <!--About-->
-        <section class="container" id ="about">
+        <section class="container" id="about">
             <h1 class="title aboutme__title">Sobre mim</h1>
-            <p class="textEmphasized">Fascinado por novas tecnologias.<p> 
+            <p class="textEmphasized">Fascinado por novas tecnologias.
+            <p>
             <p class="text">Escolhi seguir a carreira de developer após me formar em Eng. Mecânica
                 e trabalhar em uma equipe multidisciplinar com outros developers.</p>
-            <p class="text">Neste trabalho acabei me apaixonando por programação e aspiro me tornar um dev full stack.</p>
+            <p class="text">Neste trabalho acabei me apaixonando por programação e aspiro me tornar um dev full stack.
+            </p>
             <p class="text">Gosto de trabalhar em equipe, resolver problemas complexos e criar coisas.</p>
         </section>
 
@@ -130,7 +146,8 @@
                         <img src="img/icons/github.svg" alt="Github" class="project__img">
                         <div class="project__subdivision">
                             <h2 class="project__title">Portfolio Website</h2>
-                            <h3 class="project__description">Este é o código-fonte do site que você está acessando agora</h3>
+                            <h3 class="project__description">Este é o código-fonte do site que você está acessando agora
+                            </h3>
                         </div>
                     </div>
                 </a>
@@ -139,7 +156,8 @@
                         <img src="img/icons/github.svg" alt="Github" class="project__img">
                         <div class="project__subdivision">
                             <h2 class="project__title">API Rest</h2>
-                            <h4 class="project__description">API para um BD de reviews de jogos feita em Spring (Java)</h4>
+                            <h3 class="project__description">API para um BD de reviews de jogos feita em Spring (Java)
+                            </h3>
                         </div>
                     </div>
                 </a>
@@ -151,13 +169,16 @@
             <h1 class="title">Contato</h1>
             <p class="text contact__text">Você pode entrar em contato comigo através de qualquer plataforma</p>
             <div class="container__contactLinks">
-                <a href="https://github.com/wilsonbljr" class="contact__link"><img src="img/icons/github.svg" alt="GitHub" class="contact__img"></a>
+                <a href="https://github.com/wilsonbljr" class="contact__link"><img src="img/icons/github.svg"
+                        alt="GitHub" class="contact__img"></a>
                 <p class="contact__linkText">@wilsonbljr</p>
 
-                <a href="https://www.linkedin.com/in/wilsonbljr/" class="contact__link"><img src="img/icons/linkedin.svg" alt="LinkedIn" class="contact__img"></a>
+                <a href="https://www.linkedin.com/in/wilsonbljr/" class="contact__link"><img
+                        src="img/icons/linkedin.svg" alt="LinkedIn" class="contact__img"></a>
                 <p class="contact__linkText">@wilsonbljr</p>
-                
-                <a href="mailto:wilsonbljr@gmail.com" class="contact__link"><img src="img/icons/mail.svg" alt="E-mail" class="contact__img"></a>
+
+                <a href="mailto:wilsonbljr@gmail.com" class="contact__link"><img src="img/icons/mail.svg" alt="E-mail"
+                        class="contact__img"></a>
                 <p class="contact__linkText">wilsonbljr@gmail.com</p>
             </div>
         </section>
