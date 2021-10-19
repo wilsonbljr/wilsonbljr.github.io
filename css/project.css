@@ -55,3 +55,35 @@
     padding-right: 3vw;
     max-width: 100px;
 }
+
+@media screen and (min-width: 1024px) {
+    .project {
+        display: flex;
+        justify-content: space-evenly;
+        max-height: 160px;
+        gap: 20px;
+
+    }
+
+    .project__link {
+        max-width: 600px;
+        max-height: 160px;
+    }
+
+    .project__description {
+        padding: 0.5rem;
+    }
+
+    .project__img {
+        padding: 0.5rem;
+        max-width: 110px;
+    }
+    
+    .project__title {
+        font-size: 1.7rem;
+    }
+    
+    .project__description {
+        font-size: 1.25rem;
+    }
+}

@@ -25,3 +25,14 @@
     font-weight: 700;
     font-size: 0.9rem;
 }
+
+
+@media screen and (min-width: 1024px) {
+    .skills {
+        margin-right: 1rem;
+    }
+   
+    .skills__text {
+        font-size: 1.25rem;
+    }
+}

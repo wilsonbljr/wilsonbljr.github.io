@@ -10,7 +10,7 @@
 
 /* General changes */
 html {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -62,4 +62,31 @@ body {
     line-height: 1.5;
     color: var(--branco);
     padding: 0.5rem 0 0.5rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .title {
+        padding-top: 8vh;
+        padding-bottom: 6vh;
+        color: var(--cinza-claro);
+        font-weight: 700;
+        font-size: 3.5rem;
+    }
+    
+    .title::first-letter {
+        font-weight: 700;
+        font-size: 4rem;
+    }
+    
+    .title:hover {
+        color: var(--rosa);
+    }
+
+    .textEmphasized {
+        font-size: 2.5rem;
+    }
+    
+    .text {
+        font-size: 1.75rem;
+    }
 }
