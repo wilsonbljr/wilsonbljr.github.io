@@ -16,7 +16,6 @@
     <!--Styles-->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/presentation.css">
     <link rel="stylesheet" href="css/hamburgermenu.css">
     <link rel="stylesheet" href="css/skills.css">
@@ -37,16 +36,16 @@
         <!--Hamburger Menu-->
         <section>
             <button class="hamburger__button">
-                <img src="img/icons/menu.svg" alt="Abrir navegação" class="hamburger__showMenu">
-                <img src="img/icons/x.svg" alt="Fechar navegação" class="hamburger__hideButton">
+                <img src="img/icons/menu.svg" alt="Abrir navegação" class="" id="openMenu">
+                <img src="img/icons/x.svg" alt="Fechar navegação" class="hamburger__hideButton" id="closeMenu">
             </button>
-            <div class="hamburger hamburger__closeMenu">
+            <div class="hamburger">
                     <ul class="hamburger__menu">
-                        <li class="hamburger__item">Início</li>
-                        <li class="hamburger__item">Sobre mim</li>
-                        <li class="hamburger__item">Skills</li>
-                        <li class="hamburger__item">Projetos</li>
-                        <li class="hamburger__item">Contato</li>
+                        <li class="hamburger__item" id = "item__inicio">Início</li>
+                        <li class="hamburger__item" id = "item__sobre">Sobre mim</li>
+                        <li class="hamburger__item" id = "item__skills">Skills</li>
+                        <li class="hamburger__item" id = "item__projetos">Projetos</li>
+                        <li class="hamburger__item" id = "item__contato">Contato</li>
                     </ul>
                     <div class="hamburger__socials">
                         <a href="https://github.com/wilsonbljr"  class="socials__img"><img src="img/icons/github.svg" alt="Perfil do Github"></a>
@@ -139,7 +138,7 @@
                     <div class="project__box2">
                         <img src="img/icons/github.svg" alt="Github" class="project__img">
                         <div class="project__subdivision">
-                            <h3 class="project__title">API Rest</h3>
+                            <h2 class="project__title">API Rest</h2>
                             <h4 class="project__description">API para um BD de reviews de jogos feita em Spring (Java)</h4>
                         </div>
                     </div>
@@ -168,5 +167,6 @@
         <p class="footer__text"> 2021 Wilson Bley Lipski Jr.</p>
     </footer>
 </body>
+<script src="js/hamburgermenu.js"></script>
 
 </html>

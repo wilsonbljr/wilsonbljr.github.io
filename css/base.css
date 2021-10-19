@@ -11,6 +11,7 @@
 /* General changes */
 html {
     font-family: 'Fira Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {

@@ -11,14 +11,12 @@
     bottom: 0;
     z-index: 99;
     background-color: var(--preto);
+    overflow: hidden;
 }
 
 .hamburger__showMenu {
     transform: translateX(0);
-}
-
-.hamburger__closeMenu {
-    display: none;
+    transition: transform 0.3s;
 }
 
 .hamburger__menu {
