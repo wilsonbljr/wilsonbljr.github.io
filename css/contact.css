@@ -1,6 +1,6 @@
 /* Container links */
 .container__contactLinks {
-    padding-top: 5vh;
+    padding-top: 10vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -8,7 +8,7 @@
 }
 
 .contact__text {
-    padding-top: 5vh;
+    padding: 0;
 }
 
 .contact__link {
@@ -19,10 +19,12 @@
 .contact__linkText {
     width: 60%;
     color: var(--branco);
+    flex-grow: 1;
 }
 
 /* Contact icons */
 .contact__img {
     width: 50%;
+    max-width: 100px;
 }
 
