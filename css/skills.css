@@ -13,6 +13,7 @@
     margin: 0.3rem;
     text-align: center;
     color: var(--branco);
+    max-width: 130px;
 }
 
 .skills:hover {
