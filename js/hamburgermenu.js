@@ -49,7 +49,6 @@ function hideScrollDown () {
     let y = window.scrollY;
     if (y > 0) {
         scrollDown.classList.add("scrollDown__hide");
-        console.log(y);
     } else {
         scrollDown.classList.remove("scrollDown__hide");
     };
